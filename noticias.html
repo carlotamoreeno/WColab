@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css"><!--Conecta al CSS-->
+    <script src="js/main.js"></script><!--Conecta el js-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+	  <title>Blog Noticias</title>
+</head>
+<body>
+  <!--********************************************MENU***********************************************-->
+    <header>
+      <div class="contenedor-menu">
+        <h1 class="aquivalogo">Open System Consulting</h1>
+      </div>
+      <nav id="menunav" class="classnav">
+         <ul>
+            <li><a href="quienes_somos.html"><img src="icon/quienessomos.png"><i class="iconomenu"></i>Nosotros</a></li>
+            <li><a href="proyectos.html"><img src="icon/proyectoicono.png"><i class="iconomenu"></i>Proyectos</a></li>
+            <li><a href="servicios.html"><img src="icon/servicios.png"><i class="iconomenu"></i>Servicios</a></li>
+            <li><a href="productos.html"><img src="icon/regalo.png"><i class="iconomenu"></i>Productos</a></li>
+            <li><a href="contacto.html"><img src="icon/contactoicono.png"><i class="iconomenu"></i>Contacto</a></li>
+            <li><a href="noticias.html"><img src="icon/noticias.png"><i class="iconomenu"></i>Blog Noticias</a></li>
+            <li><a href="area_clientes.html"><img src="icon/cliente.png"><i class="iconomenu"></i>Clientes</a></li>
+         </ul>
+      </nav>
+        <div id="menotoggle" class="contenedor-menudos" onclick="enseñar()">
+          <div class="hamburguesa"></div>
+        </div>
+    </header>
+  <!--********************************************MENU***********************************************-->
+  <div class="fonfoescritura">
+    <h2 class="tituloGlobal"> NOTICIAS DE ACTUALIDAD </h2>
+    <div class="noticias">
+      <h3 class="tituloNoticia">Para aumentar el rendimiento en CPUs, ¿Intel y AMD abandonarían x86?</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias1.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Con la transición, ya realizada, de Apple en sus ordenadores Macintosh de utilizar CPUs con ISA x86 a ISA ARM muchos mentideros de la red lo venden como si dicho cambio supusiera por sí mismo un importante aumento en el rendimiento y la potencia. Incluso se llega a vender la ISA x86 como inferior a la ARM. ¿Realmente sería necesario para Intel y AMD abandonarán la ISA x86?
+      </div>
+    </div>
+
+    <div class="noticias">
+      <h3 class="tituloNoticia">La GPU AMD RX 6700 XT no rinde en minería, ¿más stock para gamers?</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias2.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Con el inminente lanzamiento de las AMD Radeon RX 6700 XT, muchos nos preguntamos si podremos instalar esta tarjeta gráfica en nuestros ordenadores u ocurrirá como el resto de lanzamientos recientes de NVIDIA y AMD, que han sido casi no vistas por el hecho que se la volverán a llevar los mineros y especuladores. Pues bien, pareces ser que la RX 6700 XT no será tanto del interés de los mineros. Os explicamos los motivos. 
+      </div>
+    </div>
+
+    <div class="noticias">
+      <h3 class="tituloNoticia">¿Por qué es importante la forma de la rejilla de los ventiladores en la caja?</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias3.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Cuando hablamos de la refrigeración en PC, necesariamente hablamos de ventiladores, y dado que tienen partes móviles con afiladas aspas, es necesario siempre el instalarlos tras una rejilla para evitar que podamos tocarlos accidentalmente y sufrir un accidente. Con los años e igual que los propios ventiladores, la rejilla ha ido evolucionando en forma y disposición, y en este artículo te vamos a contar por qué son tan importantes.
+      </div>
+    </div>
+
+    <div class="noticias">
+      <h3 class="tituloNoticia">No es una GTX 1660 Super, es la nueva GPU para minería 30HX</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias4.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Hace poco os hablábamos de que NVIDIA pretendía lanzar al mercado una nueva gama de tarjetas gráficas específicamente diseñadas para minar criptomonedas, resucitando la arquitectura Turing y así liberando un poco al mercado de la escasez actual de GPUs para gaming. Ahora se han filtrado las primeras imágenes de la primera gráfica NVIDIA CMP (Crypto Mining Processor) 30HX, de la mano de Gigabyte y la cual parece obvio que ha salido de una GTX 1660 Super.
+      </div>
+    </div>
+
+    <div class="noticias">
+      <h3 class="tituloNoticia">Así rinde la nueva GPU AMD RX 6700 XT en gaming, ¿acierto o decepción?</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias5.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Cuando faltan pocos días para el lanzamiento de la gama media de las RX 6600, y una de las preguntas clave, por no decir la más importante, es sobre el rendimiento de la RX 6700 XT en juegos frente a tarjetas en el mismo rango de precios como son la RTX 3070 y la RTX 3060 Ti de NVIDIA. ¿Qué tal rinde la nueva tarjeta de AMD en gaming?
+      </div>
+    </div>
+
+    <div class="noticias">
+      <h3 class="tituloNoticia">Las nuevas CPU gaming de Intel rendirán menos en RAM, ¿están limitadas?</h3>
+      <div class="imagenNoticia">
+        <img src="img/noticias6.jpeg" /> <!-- Imagen -->
+      </div>
+      <div class="textoNoticia">
+        Esta semana está caliente con las nuevas CPUs gaming de Intel, porque rendimiento en juegos aparte, las novedades que incluirán con la micro arquitectura Willow Cove van a traer cola. Si algo podía presumir Intel sin demasiados problemas era el hecho de que sus IMC llegaban a frecuencias más altas que sus homólogos en AMD, donde con apenas voltaje de serie en todos los casos se podía setear DDR4-3600, pero con Rocket Lake-S … Esto parece que está más que limitado.
+      </div>
+    </div>
+    <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+</body>
+</html>
